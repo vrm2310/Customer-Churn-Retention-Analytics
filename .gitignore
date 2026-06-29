@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+
+# Power BI cache
+*.pbix.autorecover
+
+# macOS
+.DS_Store
+
+# Processed outputs (optional)
+data/processed/temp/

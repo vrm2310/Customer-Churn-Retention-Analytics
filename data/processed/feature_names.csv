@@ -1,0 +1,43 @@
+feature_name
+Tenure Months
+Monthly Charges
+Total Charges
+service_count
+auto_payment
+high_value_customer
+security_bundle
+streaming_bundle
+internet_customer
+Gender_Male
+Senior Citizen_Yes
+Partner_Yes
+Dependents_Yes
+Phone Service_Yes
+Multiple Lines_No phone service
+Multiple Lines_Yes
+Internet Service_Fiber optic
+Internet Service_No
+Online Security_No internet service
+Online Security_Yes
+Online Backup_No internet service
+Online Backup_Yes
+Device Protection_No internet service
+Device Protection_Yes
+Tech Support_No internet service
+Tech Support_Yes
+Streaming TV_No internet service
+Streaming TV_Yes
+Streaming Movies_No internet service
+Streaming Movies_Yes
+Contract_One year
+Contract_Two year
+Paperless Billing_Yes
+Payment Method_Credit card (automatic)
+Payment Method_Electronic check
+Payment Method_Mailed check
+tenure_band_Growing
+tenure_band_Loyal
+tenure_band_New
+customer_lifecycle_Growing Customer
+customer_lifecycle_Loyal Customer
+customer_lifecycle_New Customer

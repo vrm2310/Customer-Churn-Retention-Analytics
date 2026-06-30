@@ -18,3 +18,9 @@ venv/
 
 # Processed outputs (optional)
 data/processed/temp/
+
+# ML Models
+models/**/*.pkl
+
+# Model evaluation outputs
+models/evaluation/*.csv

@@ -87,6 +87,27 @@ X = pd.get_dummies(
 )
 
 # --------------------------------------------------
+# Remove Redundant Features for Logistic Regression
+# --------------------------------------------------
+
+redundant_features = [
+
+    "tenure_band_Growing",
+    "tenure_band_Loyal",
+    "tenure_band_New",
+
+    "customer_lifecycle_Growing Customer",
+    "customer_lifecycle_Loyal Customer",
+    "customer_lifecycle_New Customer"
+
+]
+
+X = X.drop(
+    columns=redundant_features,
+    errors="ignore"
+)
+
+# --------------------------------------------------
 # Train / Test Split
 # --------------------------------------------------
 

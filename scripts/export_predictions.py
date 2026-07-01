@@ -27,7 +27,18 @@ print("=" * 60)
 
 print(f"\nInput Shape: {df.shape}")
 
-customer_ids = df["CustomerID"]
+# --------------------------------------------------
+# Keep Business Columns
+# --------------------------------------------------
+
+business_columns = df[[
+    "CustomerID",
+    "Contract",
+    "Internet Service",
+    "Payment Method",
+    "Tenure Months",
+    "Monthly Charges"
+]].copy()
 
 drop_columns = [
 
@@ -97,12 +108,10 @@ for p in probability:
     else:
         risk.append("Low")
 
-predictions = pd.DataFrame({
-    "CustomerID": customer_ids,
-    "Churn Probability": probability,
-    "Predicted Churn": prediction,
-    "Risk Category": risk
-})
+predictions = business_columns.copy()
+predictions["Churn Probability"] = probability
+predictions["Predicted Churn"] = prediction
+predictions["Risk Category"] = risk
 
 predictions["Predicted Churn"] = predictions[
     "Predicted Churn"

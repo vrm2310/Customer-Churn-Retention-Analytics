@@ -1,0 +1,4 @@
+"internet_service","total_customers","churned_customers","churn_rate_percent","avg_monthly_charges","avg_cltv"
+"Fiber optic","3096","1297","41.89","91.50","4415.20"
+"DSL","2421","459","18.96","58.10","4397.57"
+"No","1526","113","7.40","21.08","4374.38"

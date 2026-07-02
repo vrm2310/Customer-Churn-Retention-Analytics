@@ -178,7 +178,7 @@ Hyperparameters optimized using GridSearchCV.
 # 1️⃣ Executive Overview
 
 <p align="center">
-<img src="visuals/page1.png" width="100%">
+<img src="visuals/executive_overview.png" width="100%">
 </p>
 
 ### Dashboard Highlights
@@ -201,7 +201,7 @@ Hyperparameters optimized using GridSearchCV.
 # 2️⃣ Customer & Service Analysis
 
 <p align="center">
-<img src="visuals/page2.png" width="100%">
+<img src="visuals/customer_service_analysis.png" width="100%">
 </p>
 
 ### Dashboard Highlights
@@ -226,7 +226,7 @@ Hyperparameters optimized using GridSearchCV.
 # 3️⃣ Revenue & Geographic Analysis
 
 <p align="center">
-<img src="visuals/page3.png" width="100%">
+<img src="visuals/revenue_geographic_analysis.png" width="100%">
 </p>
 
 ### Dashboard Highlights
@@ -248,7 +248,7 @@ Hyperparameters optimized using GridSearchCV.
 # 4️⃣ Predictive Analytics
 
 <p align="center">
-<img src="visuals/page4.png" width="100%">
+<img src="visuals/predictive_analytics.png" width="100%">
 </p>
 
 ### Dashboard Highlights
